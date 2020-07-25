@@ -13,7 +13,7 @@
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<version>${log4j.version}</version>
 		</dependency>
 	</dependencies>
 	
@@ -103,6 +103,7 @@
         <target.version>1.8</target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	<log4j.version>1.2.17</log4j.version>
     </properties>
 	
 </project>
